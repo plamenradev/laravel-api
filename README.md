@@ -7,6 +7,8 @@ The API uses sqlite database connection by default so create database.sqlite fil
 
 The API uses [Mailtrap](https://mailtrap.io/) for mailing. You can set your own credentials in order to watch the mailing service.
 
+In order to start Jobs worker run `php artisan queue:work` command in order to start processing jobs on the queue as a daemon.
+
 ## Endpoint URLs
 
 POST /v1/api/company
